@@ -1,136 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="">
+    <script src="https://kit.fontawesome.com/42a66a0b61.js"></script>
+    <title>Joseph Small Web Developer Portfolio Site</title>
+
 </head>
+
 <body>
-    <!-- we want an about me section -->
-    <!-- a project section and then a contact me section make sure there are links to the projets
-    links to github - coffee machine, etch a sketch, and turtle race - for now- figure out how to make in-site links -->
-    <!-- header section -->
-    <header>
-        <div class="topnav">
-            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEIUidDhsqtWA/profile-displayphoto-shrink_200_200/0/1554565863197?e=1618444800&v=beta&t=ALBI2JjdEzf45lR0p2GzyhvJxBjt0JwRUZfLwsQ8y78"
-                alt="personal-photo">
-            <a class="active" href="#home">Joseph Small</a>
-            <a href="#about">About Me</a>
-            <a href="#education">Education</a>
-            <a href="#work">Work Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
+    <div class="container">
+        <header>
+            <!-- <div class ="topnav"> -->
+            <h4>
+                Joseph Small
+            </h4>
+            <h4>
+                <a href="#profile">About</a>
+            </h4>
+            <h4>
+                <a href="#resume">Contact</a>
+            </h4>
+            <h4>
+                <a href="#profile">Profile</a>
+            </h4>
+            <h4>
+                <a href="#work">Work</a>
+            </h4>
+            <!--
+                <ul>
+                    <li>
+                    Joseph Small
+                    </li>
+                    <li>
+                    <a href="#profile">About</a>
+                    </li>
+                    <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#resume">Contact</a>
+                    </li>
+                    <li>
+                    <a href="#profile">Profile</a>
+                    </li>
+                </ul>-->
+            <!-- </div> -->
+        </header>
+        <main>
+            <section id="profile">
+                <h3>Profile
+                </h3>
+                <figure>
+                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEIUidDhsqtWA/profile-displayphoto-shrink_200_200/0/1554565863197?e=1618444800&v=beta&t=ALBI2JjdEzf45lR0p2GzyhvJxBjt0JwRUZfLwsQ8y78"
+                        alt="personal picture">
+                </figure>
+                <div class="about">
+                    <section id="personal-info">
+                        <p>I am a junior software developer based in New York City. </p>
+                    </section>
+                    <section id="education">
+                        <p> I graduated from the University of Pittsburgh with a degree in Psychology and Philosophy. I
+                            am currently studying computer coding at the school of Engineering at Columbia University.
+                        </p>
+                    </section>
+                    <section id="experience">
+                        <p> I have worked at Deutsche Bank for three years as security operations analyst.</p>
+                    </section>
+            </section>
+    </div>
+    <hr>
+    <section id="work">
+        <h2>Featured work</h2>
+        <div class="coffee">
+            <ul>
+                <li>
+                    <a href="https://github.com/joesmall37/Coffee-Machine">Coffee Machine - Python</a>
+                </li>
+            </ul>
         </div>
-    </header>
-    <main>
-        <Div class="content">
-            <div class="about" id="about">
+        </div>
+        <div class="carousel">
+            <div class="rocks">
                 <ul>
                     <li>
-                        Hometown
-                        <ul>
-                            <li>
-                                Pittsburgh, PA
-                            </li>
-                        </ul>
+                        <a href="https://en.wikipedia.org/wiki/Rock_paper_scissors">Rock Paper Scissor - Javascript</a>
                     </li>
                 </ul>
             </div>
-            <div class="work" id="work">
+            <div class="turtle">
                 <ul>
                     <li>
-                        Work-Experience
-                        <ul>
-                            <li>
-                                <a href="https://www.db.com/index?language_id=1">Deutsche Bank</a>
-                                <ul>
-                                    <li>
-                                        Security Operations Analyst
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+                        <a href="https://github.com/joesmall37/Python-Turtle-Race">Turtle Race - Python</a>
                     </li>
                 </ul>
             </div>
-            <div class="education" id="education">
+            <div class="calculator">
                 <ul>
                     <li>
-                        Education
-                    </li>
-                    <li>
-                        <a href="https://www.pitt.edu/">University of Pittsburgh</a>
-                        <ul>
-                            Psychology, Philosophy
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="https://www.columbia.edu/">Columbia University</a>
-                        <ul>
-                            Computer Programming
-                        </ul>
+                        <a href="">Calculator - Javascript</a>
                     </li>
                 </ul>
             </div>
-            <div class="projects" id="projects">
-                <div class="rocks">
-                    <ul>
-                        <li>
-                            <a href="#">Rock Paper Scissor - Javascript</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="coffee">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/joesmall37/Coffee-Machine">Coffee Machine - Python</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="turtle">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/joesmall37/Python-Turtle-Race">Turtle Race - Python</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="skills" id="skills">
-                <ul>
-                    <li>
-                        Skills
-                        <ul>
-                            <li>
-                                Python
-                            </li>
-                            <li>
-                                Javascript
-                            </li>
-                            <li>
-                                Databases
-                            </li>
-                            <li>
-                                Communication
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </Div>
-
-    </main>
+        </div>
+    </section>
+    <hr>
+    <section id="resume">
+        <h2><a href="#">Resume</a> </h2>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="bottom-nav">
+            <ul class="social">
+                <li><a class="fontawesome" href="https://www.linkedin.com/in/joe--small/" target="_blank"></li>
+                <span style="font-size: 3em;">
+                    <i class="fab fa-linkedin-in"></i>
+                </span></a>
+                <li><a class="fontawesome" href="https://github.com/joesmall37" target="_blank"></li>
+                <span style="font-size: 3em;">
+                    <i class="fab fa-github"></i>
+                </span></a>
+                <li><a class="fontawesome" href="" target="_blank"></li>
+                <span style="font-size: 3em;">
+                    <i class="fab fa-dribbble"></i>
+                </span></a>
+                <li><a class="fontawesome" href="" target="_blank"></li>
+                <span style="font-size: 3em;">
+                    <i class="fab fa-instagram"></i>
+                </span></a>
+            </ul>
+        </div>
+    </section>
     <footer>
-        <a class="active" href="#home">Joseph Small</a>
-        <a href="#education">Education</a>
-        <a href="#work">Work Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#about">About Me</a>
-        <a href="#contact">Contact Me</a>
-        </div>
+        <p>&copy: Copyright 2021 Joseph Small</p>
     </footer>
-
+    <hr>
+    </main>
+    </div>
 </body>
+
 </html>
