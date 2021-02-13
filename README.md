@@ -7,5 +7,7 @@
  
 
   - [Link to website](https://joesmall37.github.io/Portfolio/#resume)
+  
+  - ![Website Image](https://user-images.githubusercontent.com/63420051/107863443-783ae080-6e22-11eb-9947-6c75fa2575c7.png)
  
 
