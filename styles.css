@@ -1,6 +1,5 @@
 :root {
   --dark-gray-text: darkgray;
-  --orange-text: orange;
   --navy: #003366;
   --silver: #d0d0d0;
   --charcoal: #505050;
@@ -12,6 +11,30 @@
 body {
   font-family: serif;
 }
+
+/* styling for the header */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: solid var(--navy);
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 100;
+  text-decoration: none;
+  color: var(--navy);
+}
+
+@media screen and (max-width: 750px) {
+  header {
+    color: var(--crimson);
+    border-color: var(--crimson);
+
+}
+}
+
 /* styling for the links */
 a {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -82,14 +105,27 @@ main {
   width: 800px;
   margin: 0 auto;
 }
-/* styling for paragraphs */
-section p {
-  color: var(--dark-gray-text);
+
+/* styling for the about me paragraphs */
+.p-box {
+  width: 33%;
+  padding: 10px;
+  border: 5px solid var(--navy);
+  margin: 0;
 }
 @media screen and (max-width: 750px) {
-   section p{
-    color: var(--darkgray);
-  }
+  .p-box {
+    padding: 5px;
+    border: 3px solid var(--crimson);
+}
+}
+
+
+section p {
+  color: var(--dark-gray);
+}
+section p a {
+   color: var(--dark-gray);
 }
 section {
   margin-bottom: 20px;
@@ -105,10 +141,9 @@ section {
   color: var(white);
   display: flex;
   background-image: url("https://images.pexels.com/photos/5480759/pexels-photo-5480759.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-  /* this needs to be changed with media queries */
   width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*  Grouo of projects below the main project - they split the screen into thirds */
@@ -171,59 +206,8 @@ section {
   border-color: var(--crimson);
   }
 }
-*/
-
-.bottom-nav .social {
-  color: var(--navy);
-}
-
-@media screen and (max-width: 750px) {
-  .bottom-nav .social {
-    color: var(--crimson);
-  }
-}
-.bottom-nav .social {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-#resume {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-footer p {
-  display: flex;
-  justify-content: center;
-}
-
-
-
-header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  border-bottom: solid var(--navy);
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-weight: 100;
-  text-decoration: none;
-  color: var(--navy);
-}
-
-@media screen and (max-width: 750px) {
-  header {
-    color: var(--crimson);
-    border-color: var(--crimson);
-
-}
-}
+/* styling for the bottom-nav */
  .bottom-nav {
-  position: sticky;
-  bottom: 0;
   border-top: solid var(--navy);
   display: flex;
   justify-content: center;
@@ -241,34 +225,25 @@ header {
     border-color: var(--crimson);
 
 }
-}
 
-.about {
-  display: flex;
-  justify-content: space-around;
+
+/* styling for the social profiles */
+
+.bottom-nav .social {
+  color: var(--navy);
 }
 
 @media screen and (max-width: 750px) {
-  .about {
+  .bottom-nav .social {
     color: var(--crimson);
-    border-color: var(--crimson);
-    flex-wrap: wrap;
-
+  }
 }
-}
-
-.about #personal-info, #education, #experience {
-  margin: 25px;
-  padding: 25px;
+.bottom-nav .social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-@media screen and (max-width: 750px) {
-  .about #personal-info, #education, #experience  {
-    margin: 5px;
-    padding: 5px;
-}
-}
-/* styling for images linking social media */
 span {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 100;
@@ -280,4 +255,75 @@ span {
     color: var(--crimson);
     font-size: 12px;
   }
+}
+}
+/* styling for contact me section */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+@media screen and (max-width: 750px) {
+  input[type=text], select, textarea {
+  width: 100%;
+  padding: 6px;
+  border-radius: 2px;
+  margin-top: 3px;
+  margin-bottom: 8px;
+  }
+}
+
+
+input[type=submit] {
+  background-color: var(--navy);
+  color: var(--white);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+@media screen and (max-width: 750px) {
+  input[type=submit] {
+    background-color: var(--crimson);
+    padding: 6px 10px;
+    border-radius: 2px;
+
+  }
+}
+
+
+input[type=submit]:hover {
+  background-color: var(--silver);
+}
+
+
+.contact {
+  border-radius: 5px;
+  background-color: var(--white);
+  padding: 20px;
+}
+@media screen and (max-width: 750px) {
+  .contact{
+    padding: 10px;
+  }
+}
+
+#contact {
+  color: var(--navy);
+}
+@media screen and (max-width: 750px) {
+  #contact{
+    color: var(--crimson);
+  }
+}
+
+/* styling for the footer */
+footer p {
+  display: flex;
+  justify-content: center;
 }
