@@ -7,7 +7,5 @@
  
 
   - [Link to website](https://joesmall37.github.io/Portfolio/#resume)
-
-
-  - ![Screenshot of the website/application](file:///Users/yossismall/Desktop/Screen%20Shot%202021-02-13%20at%205.00.52%20PM.png)
+ 
 
