@@ -23,7 +23,7 @@
             <a href="#profile">About</a>
         </h4>
         <h4>
-            <a href="#resume">Contact</a>
+            <a href="#contact">Contact</a>
         </h4>
         <h4>
             <a href="#profile">Profile</a>
@@ -31,25 +31,6 @@
         <h4>
             <a href="#work">Work</a>
         </h4>
-        <!--
-                    <ul>
-                        <li>
-                        Joseph Small
-                        </li>
-                        <li>
-                        <a href="#profile">About</a>
-                        </li>
-                        <li>
-                        <a href="#work">Work</a>
-                    </li>
-                    <li>
-                        <a href="#resume">Contact</a>
-                        </li>
-                        <li>
-                        <a href="#profile">Profile</a>
-                        </li>
-                    </ul>-->
-        <!-- </div> -->
     </header>
     <div class="container">
         <main>
@@ -60,18 +41,19 @@
                     <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEIUidDhsqtWA/profile-displayphoto-shrink_200_200/0/1554565863197?e=1618444800&v=beta&t=ALBI2JjdEzf45lR0p2GzyhvJxBjt0JwRUZfLwsQ8y78"
                         alt="personal picture">
                 </figure>
-                <div class="about">
-                    <section id="personal-info">
-                        <p>I am a junior software developer based in New York City. </p>
-                    </section>
-                    <section id="education">
-                        <p> I graduated from the University of Pittsburgh with a degree in Psychology and Philosophy. I
-                            am currently studying computer coding at the school of Engineering at Columbia University.
-                        </p>
-                    </section>
-                    <section id="experience">
-                        <p> I have worked at Deutsche Bank for three years as security operations analyst.</p>
-                    </section>
+                     <div class="p-box">
+                        <section id="personal-info">
+                            <p>I am a junior software developer based in New York City. </p>
+                        </section>
+                        <section id="education">
+                            <p> I graduated from the University of Pittsburgh with a degree in Psychology and Philosophy. I
+                                am currently studying computer coding at the school of Engineering at Columbia University.
+                            </p>
+                        </section>
+                        <section id="experience">
+                            <p> I enjoy working with clients and helping them solve problems through technology. Please reach out to <a href="#contact">me</a> if you would like to collaborate!</p>
+                        </section>
+                    </div>
             </section>
     </div>
     <section id="work">
@@ -108,42 +90,49 @@
             </div>
         </div>
     </section>
-    <!-- <section id="resume">
-        <h2><a href="#">Resume</a> </h2>
-    </section> -->
-    <!-- <section id="contact"> -->
-        <!-- <h2>Contact</h2> -->
-        <div class="bottom-nav">
-            <h4> Contact
-            </h4>
-            <ul class="social">
-                <li><a class="fontawesome" href="https://www.linkedin.com/in/joe--small/" target="_blank"></li>
-                <span style="font-size: 3em;">
-                    <i class="fab fa-linkedin-in"></i>
-                </span></a>
-                <li><a class="fontawesome" href="https://github.com/joesmall37" target="_blank"></li>
-                <span style="font-size: 3em;">
-                    <i class="fab fa-github"></i>
-                </span></a>
-                <li><a class="fontawesome" href="" target="_blank"></li>
-                <span style="font-size: 3em;">
-                    <i class="fab fa-dribbble"></i>
-                </span></a>
-                <li><a class="fontawesome" href="" target="_blank"></li>
-                <span style="font-size: 3em;">
-                    <i class="fab fa-instagram"></i>
-                </span></a>
-            </ul>
-            <h4> <a a href="#">Resume</a>
-            </h4>
-        </div>
-    <!-- </section>
-    <div class="final-bottom-nav">
-        <h4> Contact
+    <div class="contact">
+        <h4 id="contact"> Contact Me
         </h4>
-        <h4> <a a href="#">Resume</a>
-        </h4>
-    </div> -->
+        <br>
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your first name here">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter your last name here">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email address here">
+
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone" placeholder="Enter your phone number here.">
+
+            <label for="developer">Are you looking for a developer?</label>
+            <select id="developer" name="developer">
+             <option value="Yes">Yes</option>
+            <option value="No">No</option>
+
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Reach out to me if you have any questions!" style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    <!-- </div> links to my social profiles -->
+    <div class="bottom-nav">
+        <ul class="social">
+            <li><a class="fontawesome" href="https://www.linkedin.com/in/joe--small/" target="_blank"></li>
+            <span style="font-size: 3em;">
+                <i class="fab fa-linkedin-in"></i>
+            </span></a>
+            <li><a class="fontawesome" href="https://github.com/joesmall37" target="_blank"></li>
+            <span style="font-size: 3em;">
+                <i class="fab fa-github"></i>
+            </span></a>
+    </div>
     <br>
     <footer>
         <p>&copy: Copyright 2021 Joseph Small</p>
