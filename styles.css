@@ -133,15 +133,16 @@ section {
 
 /* Main project which is larger than the other projects */
 .coffee {
-  width: 400px;
-  height: 800px;
+  width: 200px;
+  height: 500px;
   border: 15px solid var(--navy);
   margin: 20px;
   background-color: var(--silver);
   color: var(white);
   display: flex;
-  background-image: url("https://images.pexels.com/photos/5480759/pexels-photo-5480759.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-  width: 100%;
+  /* background-image: url("https://images.pexels.com/photos/5480759/pexels-photo-5480759.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
+  background-image: url("https://user-images.githubusercontent.com/63420051/111835730-b0bf5580-88cb-11eb-990b-ec887fd8f545.png");
+  width: 95%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -160,7 +161,12 @@ section {
   background-color: var(--silver);
   color: var(--white);
   display: flex;
-  background-image: url("https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-image: url("https://user-images.githubusercontent.com/63420051/109405940-165e9880-7943-11eb-9f5d-1129db7394a5.png");
+   background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+
+
   width: 25%;
   height: 500px;
 }
@@ -193,11 +199,14 @@ section {
 }
 
 .calculator {
-    background-image: url("https://images.pexels.com/photos/374918/pexels-photo-374918.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-image: url("https://user-images.githubusercontent.com/63420051/110222212-a26e4400-7e9e-11eb-926d-beb66d493ace.png");
 }
 
 .rocks {
-  background-image: url("https://images.pexels.com/photos/133372/pexels-photo-133372.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-image: url("https://user-images.githubusercontent.com/63420051/108580018-a7a48e00-72f7-11eb-975c-82c253d80551.png");
+   background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
 
 }
 
