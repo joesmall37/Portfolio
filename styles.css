@@ -1,10 +1,10 @@
 :root {
   --dark-gray-text: darkgray;
-  --navy: #003366;
+  --navy: #000039;
   --silver: #d0d0d0;
   --charcoal: #505050;
   --darkgray: #202020;
-  --crimson: #690015;
+  --crimson: #123524;
   --white: #f8f8ff;
 }
 
@@ -140,11 +140,11 @@ section {
   background-color: var(--silver);
   color: var(white);
   display: flex;
-  /* background-image: url("https://images.pexels.com/photos/5480759/pexels-photo-5480759.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
   background-image: url("https://user-images.githubusercontent.com/63420051/111835730-b0bf5580-88cb-11eb-990b-ec887fd8f545.png");
   width: 95%;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 /*  Grouo of projects below the main project - they split the screen into thirds */
@@ -159,16 +159,15 @@ section {
   border: 15px solid var(--navy);
   margin: 20px;
   background-color: var(--silver);
-  color: var(--white);
+  color: var(---white);
   display: flex;
-  background-image: url("https://user-images.githubusercontent.com/63420051/109405940-165e9880-7943-11eb-9f5d-1129db7394a5.png");
-   background-size: contain;
-        background-repeat: no-repeat;
-        background-position: right;
-
-
-  width: 25%;
-  height: 500px;
+  /* background-image: url("https://user-images.githubusercontent.com/63420051/109405940-165e9880-7943-11eb-9f5d-1129db7394a5.png"); */
+  /* background-size: 100% 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right; */
+  width: 30%;
+  height: 200px;
 }
 .turtle li, .calculator li, .rocks li, .coffee li {
   flex-direction: column;
@@ -176,11 +175,10 @@ section {
   font-size: 30px;
 }
 .turtle li a:hover, .calculator li a:hover, .rocks li a:hover, .coffee li a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: white;
 }
 .turtle li a:visited, .calculator li a:visited, .rocks li a:visited, .coffee li a:visited{
-  color: var(--white);
+  /* color: var(--white); */
 }
 .turtle:hover, .calculator:hover, .rocks:hover, .coffee:hover {
     transform: scale(1.05);
@@ -200,14 +198,19 @@ section {
 
 .calculator {
     background-image: url("https://user-images.githubusercontent.com/63420051/110222212-a26e4400-7e9e-11eb-926d-beb66d493ace.png");
+    background-size: 100% 100%;
 }
 
 .rocks {
   background-image: url("https://user-images.githubusercontent.com/63420051/108580018-a7a48e00-72f7-11eb-975c-82c253d80551.png");
-   background-size: contain;
-        background-repeat: no-repeat;
-        background-position: right;
+  background-size: 100% 100%;
 
+
+}
+
+.turtle {
+  background-image: url("https://user-images.githubusercontent.com/63420051/109405940-165e9880-7943-11eb-9f5d-1129db7394a5.png");
+  background-size: 100% 100%;
 }
 
 @media screen and (max-width: 750px) {
