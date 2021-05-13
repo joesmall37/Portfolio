@@ -1,10 +1,14 @@
 :root {
   --dark-gray-text: darkgray;
+<<<<<<< HEAD
   --navy: #003366;
+=======
+  --navy: #000039;
+>>>>>>> 918122b3380da2f8b863c921e201755f2eadfce8
   --silver: #d0d0d0;
   --charcoal: #505050;
   --darkgray: #202020;
-  --crimson: #690015;
+  --crimson: #123524;
   --white: #f8f8ff;
 }
 
@@ -133,12 +137,19 @@ section {
 
 /* Main project which is larger than the other projects */
 .coffee {
+<<<<<<< HEAD
   width: 400px;
   height: 350px;
   border: 5px solid var(--navy);
+=======
+  width: 200px;
+  height: 500px;
+  border: 15px solid var(--navy);
+>>>>>>> 918122b3380da2f8b863c921e201755f2eadfce8
   margin: 20px;
   /* background-color: var(--silver); */
   display: flex;
+<<<<<<< HEAD
   background-image: url("https://images.pexels.com/photos/1772123/pexels-photo-1772123.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   /* width: 75%; */
   background-repeat: no-repeat;
@@ -152,6 +163,13 @@ section {
 /* visited link */
 .coffee a {
   color: var(--navy)
+=======
+  background-image: url("https://user-images.githubusercontent.com/63420051/111835730-b0bf5580-88cb-11eb-990b-ec887fd8f545.png");
+  width: 95%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+>>>>>>> 918122b3380da2f8b863c921e201755f2eadfce8
 }
 
 /*  Grouo of projects below the main project - they split the screen into thirds */
@@ -167,6 +185,7 @@ section {
   border: 5px solid var(--navy);
   margin: 20px;
   background-color: var(--silver);
+<<<<<<< HEAD
   color: var(--navy);
   display: flex;
   background-image: url("https://images.pexels.com/photos/531844/pexels-photo-531844.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
@@ -175,6 +194,17 @@ section {
   width: 25%;
   height: 500px;
 
+=======
+  color: var(---white);
+  display: flex;
+  /* background-image: url("https://user-images.githubusercontent.com/63420051/109405940-165e9880-7943-11eb-9f5d-1129db7394a5.png"); */
+  /* background-size: 100% 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right; */
+  width: 30%;
+  height: 200px;
+>>>>>>> 918122b3380da2f8b863c921e201755f2eadfce8
 }
 .turtle li, .calculator li, .rocks li, .coffee li {
   flex-direction: row;
@@ -182,11 +212,19 @@ section {
   font-size: 30px;
 }
 .turtle li a:hover, .calculator li a:hover, .rocks li a:hover, .coffee li a:hover {
+<<<<<<< HEAD
   color: black;
 }
 /* .turtle li a:visited, .calculator li a:visited, .rocks li a:visited, .coffee li a:visited{
   color: var(--white);
 } */
+=======
+  background-color: white;
+}
+.turtle li a:visited, .calculator li a:visited, .rocks li a:visited, .coffee li a:visited{
+  /* color: var(--white); */
+}
+>>>>>>> 918122b3380da2f8b863c921e201755f2eadfce8
 .turtle:hover, .calculator:hover, .rocks:hover, .coffee:hover {
     transform: scale(1.05);
     transition: 0.3s;
@@ -204,6 +242,7 @@ section {
 }
 
 .calculator {
+<<<<<<< HEAD
     background-image: url("https://images.pexels.com/photos/255483/pexels-photo-255483.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-repeat: no-repeat;
   background-size: cover;
@@ -213,7 +252,22 @@ section {
   background-image: url("https://images.pexels.com/photos/3182743/pexels-photo-3182743.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
   background-size: cover;
+=======
+    background-image: url("https://user-images.githubusercontent.com/63420051/110222212-a26e4400-7e9e-11eb-926d-beb66d493ace.png");
+    background-size: 100% 100%;
+}
 
+.rocks {
+  background-image: url("https://user-images.githubusercontent.com/63420051/108580018-a7a48e00-72f7-11eb-975c-82c253d80551.png");
+  background-size: 100% 100%;
+>>>>>>> 918122b3380da2f8b863c921e201755f2eadfce8
+
+
+}
+
+.turtle {
+  background-image: url("https://user-images.githubusercontent.com/63420051/109405940-165e9880-7943-11eb-9f5d-1129db7394a5.png");
+  background-size: 100% 100%;
 }
 
 @media screen and (max-width: 750px) {
@@ -292,8 +346,13 @@ input[type=text], select, textarea {
   margin-bottom: 8px;
   }
 }
+<<<<<<< HEAD
 
 
+=======
+
+
+>>>>>>> 918122b3380da2f8b863c921e201755f2eadfce8
 input[type=submit] {
   background-color: var(--navy);
   color: var(--white);
