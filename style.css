@@ -1,0 +1,20 @@
+.navbar {
+    background-color: #013220;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: black;
+}
+.btn {
+    color: white;
+    border-color: white;
+}
+.btn:hover {
+    background-color: black;
+    border-color: white;
+}
