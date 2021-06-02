@@ -82,8 +82,17 @@ h3 {
   height: 250px;
   border-radius: 50%;
   border: solid 10px;
-  border-color: var(--navy);
-  margin: 25px;
+  border-color: var(--silver);
+  margin: auto;
+}
+#profile img:hover {
+   transform: scale(1.05);
+    transition: 0.3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    border-color: var(--navy);
 }
 @media screen and (max-width: 750px) {
   #profile img {
@@ -110,8 +119,18 @@ main {
 .p-box {
   width: 33%;
   padding: 10px;
-  border: 5px solid var(--navy);
-  margin: 0;
+  border: 5px solid var(--silver);
+  margin: auto;
+}
+.p-box:hover {
+   transform: scale(1.05);
+    transition: 0.3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    color: var(--navy);
+    border-color: var(--navy);
 }
 @media screen and (max-width: 750px) {
   .p-box {
@@ -133,10 +152,11 @@ section {
 
 /* Main project which is larger than the other projects */
 .coffee {
-  width: 400px;
-  height: 350px;
-  border: 5px solid var(--navy);
-  margin: 20px;
+  width: 50%;
+  height: 300px;
+  border: 5px solid var(--silver);
+  margin: auto;
+  margin-bottom: 20px;
   /* background-color: var(--silver); */
   display: flex;
   background-image: url("https://images.pexels.com/photos/1772123/pexels-photo-1772123.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
@@ -162,41 +182,43 @@ section {
   flex-direction: row;
 }
 
-.turtle, .calculator, .rocks{
+.turtle, .calculator, .rocks, .barter, .resort, .CoffeeMachine, .Team, .Coffee, .Employee, .Password{
   width: 50%;
-  border: 5px solid var(--navy);
-  margin: 20px;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 5px solid var(--silver);
+  margin-top: 20px;
   background-color: var(--silver);
   color: var(--navy);
   display: flex;
   background-image: url("https://images.pexels.com/photos/531844/pexels-photo-531844.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
    background-repeat: no-repeat;
   background-size: cover;
-  width: 25%;
-  height: 500px;
 
 }
-.turtle li, .calculator li, .rocks li, .coffee li {
+.turtle li, .calculator li, .rocks li, .coffee li, .barter li, .resort li, .CoffeeMachine li, .Coffee li, .Team li, .Employee li, .Password li{
   flex-direction: row;
   align-content: flex-start;
   font-size: 30px;
 }
-.turtle li a:hover, .calculator li a:hover, .rocks li a:hover, .coffee li a:hover {
+.turtle li a:hover, .calculator li a:hover, .rocks li a:hover, .coffee li a:hover, .barter li a:hover, .resort li a:hover, .CoffeeMachine li a:hover, .Coffee li a:hover, .Team li a:hover, .Employee li a:hover, .Password li a:hover {
   color: black;
 }
 /* .turtle li a:visited, .calculator li a:visited, .rocks li a:visited, .coffee li a:visited{
   color: var(--white);
 } */
-.turtle:hover, .calculator:hover, .rocks:hover, .coffee:hover {
+.turtle:hover, .calculator:hover, .rocks:hover, .coffee:hover, .barter:hover, .resort:hover, .CoffeeMachine:hover, .Coffee:hover, .Team:hover, .Employee:hover, .Password:hover{
     transform: scale(1.05);
     transition: 0.3s;
     transition-property: all;
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transition-delay: 0s;
+    border-color: var(--navy)
 }
 @media screen and (max-width: 750px) {
-  .turtle, .calculator, .rocks, .coffee{
+  .turtle, .calculator, .rocks, .coffee, .barter, .resort, .CoffeeMachine, .Team, .Coffee, .Employee, .Password{
     border-color: var(--crimson);
     width: 100%;
     height: 400px;
@@ -204,13 +226,13 @@ section {
 }
 
 .calculator {
-    background-image: url("https://images.pexels.com/photos/255483/pexels-photo-255483.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-image: url("https://images.pexels.com/photos/1268871/pexels-photo-1268871.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-repeat: no-repeat;
   background-size: cover;
 }
 
 .rocks {
-  background-image: url("https://images.pexels.com/photos/3182743/pexels-photo-3182743.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-image: url("https://images.pexels.com/photos/936094/pexels-photo-936094.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -218,9 +240,42 @@ section {
 }
 
 .turtle {
-  background-image: url("https://user-images.githubusercontent.com/63420051/109405940-165e9880-7943-11eb-9f5d-1129db7394a5.png");
+  background-image: url("https://images.pexels.com/photos/5797899/pexels-photo-5797899.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-size: 100% 100%;
 }
+.resort {
+  background-image: url("https://images.pexels.com/photos/5797899/pexels-photo-5797899.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: 100% 100%;
+}
+.CoffeeMachine {
+  background-image: url("https://images.pexels.com/photos/373888/pexels-photo-373888.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: 100% 100%;
+}
+.Coffee {
+  background-image: url("https://images.pexels.com/photos/977876/pexels-photo-977876.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: 100% 100%;
+}
+.Employee{
+background-image: url("https://images.pexels.com/photos/1367276/pexels-photo-1367276.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: 100% 100%;
+}
+.Password {
+background-image: url("https://images.pexels.com/photos/218413/pexels-photo-218413.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: 100% 100%;
+}
+.Team {
+  background-image: url("https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: 100% 100%;
+}
+.barter{
+  background-image: url("https://images.pexels.com/photos/1036635/pexels-photo-1036635.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: 100% 100%;
+}
+.resort{
+background-image: url("https://images.pexels.com/photos/1268871/pexels-photo-1268871.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: 100% 100%;
+}
+
 
 @media screen and (max-width: 750px) {
   .calculator, .rocks, .turtle, .coffee{
