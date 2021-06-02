@@ -26,7 +26,8 @@
   - There is a contact section at the bottom of the page in order for a potential employer or developer to reach to me. 
 ## Deployed Application
 - [Link to deployed application](https://joesmall37.github.io/Portfolio/#resume)
- - ![image](https://user-images.githubusercontent.com/63420051/117560680-ea0b7a80-b05d-11eb-9445-feb4773c6eab.png)
+![image](https://user-images.githubusercontent.com/63420051/120412847-43955b00-c325-11eb-88c9-ae08ea523d00.png)
+
 ## Contribution 
   - Joseph Small
  
