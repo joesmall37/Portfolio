@@ -7,8 +7,9 @@
  
   ## Deployed Application
   - [Link to website](https://joesmall37.github.io/Portfolio/#resume)
-  
-  - ![Website Image](https://user-images.githubusercontent.com/63420051/107863443-783ae080-6e22-11eb-9947-6c75fa2575c7.png)
+ 
+  - ![image](https://user-images.githubusercontent.com/63420051/120412533-b6520680-c324-11eb-8a8a-592a8a61852e.png)
+
  ## Technology Used
   - HTML
   - CSS
