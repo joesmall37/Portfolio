@@ -66,7 +66,7 @@ h2 {
   color: var(--navy);
 }
 h3 {
-  font-size: 46px;
+  font-size: 40px;
   font-weight: 100;
   color: var(--navy);
 }
@@ -117,7 +117,7 @@ main {
 
 /* styling for the about me paragraphs */
 .p-box {
-  width: 33%;
+  width: 50%;
   padding: 10px;
   border: 5px solid var(--silver);
   margin: auto;
@@ -156,7 +156,6 @@ section {
   height: 300px;
   border: 5px solid var(--silver);
   margin: auto;
-  margin-bottom: 20px;
   /* background-color: var(--silver); */
   display: flex;
   background-image: url("https://images.pexels.com/photos/1772123/pexels-photo-1772123.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
@@ -403,3 +402,5 @@ footer p {
   display: flex;
   justify-content: center;
 }
+
+
