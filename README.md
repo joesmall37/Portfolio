@@ -1,5 +1,4 @@
 # Porfolio
-# Tech Blog
 ## Table of Contents:
 * [Title](#Portfolio)
 * [Description](#Description)
